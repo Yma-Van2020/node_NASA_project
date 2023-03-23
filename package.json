@@ -1,0 +1,29 @@
+{
+  "name": "node_NASA_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "npm install --prefix server",
+    "install-client": "npm install --prefix client",
+    "install": "npm run install-server && npm run install-client",
+    "server": "npm run watch --prefix server",
+    "client": "npm start --prefix client",
+    "watch": "npm run server & npm run client ",
+    "test": "npm run test --prefix server && npm run test --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yma-Van2020/node_NASA_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yma-Van2020/node_NASA_project/issues"
+  },
+  "homepage": "https://github.com/Yma-Van2020/node_NASA_project#readme",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
+}
