@@ -25,5 +25,8 @@
   "homepage": "https://github.com/Yma-Van2020/node_NASA_project#readme",
   "dependencies": {
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "supertest": "^6.3.3"
   }
 }
