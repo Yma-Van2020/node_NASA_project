@@ -31,6 +31,8 @@ To run any automated tests, run `npm test`. This will:
 * Run all the client-side tests: `npm test --prefix client`
 * Run all the server-side tests: `npm test --prefix server` 
 
+## Demo
+
 ![nasa](https://user-images.githubusercontent.com/74885386/227730537-70991843-a542-4d54-901d-e4022d6dabc0.png)
 ![Screen Shot 2023-03-25 at 9 41 58 AM](https://user-images.githubusercontent.com/74885386/227730542-3bf4f4c0-baac-47bd-9d16-d25f287fa953.png)
 ![Screen Shot 2023-03-25 at 9 42 05 AM](https://user-images.githubusercontent.com/74885386/227730549-5a749aea-edd3-4046-b9d1-76494f818df8.png)
