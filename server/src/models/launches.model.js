@@ -1,4 +1,5 @@
 const launches = new Map();
+const launces = require
 let latestFlightNumber = 100;
 
 const launch = {

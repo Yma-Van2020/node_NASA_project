@@ -10,6 +10,7 @@
     "server": "npm run watch --prefix server",
     "client": "npm start --prefix client",
     "watch": "npm run server & npm run client ",
+    "deploy-cluster": "npm run build --prefix client && npm run cluster --prefix server",
     "test": "npm run test --prefix server && npm run test --prefix client"
   },
   "repository": {
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/Yma-Van2020/node_NASA_project#readme",
   "dependencies": {
+    "mongoose": "^7.0.3",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
