@@ -2,10 +2,7 @@
 const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
-
-const planetsRouter = require("./routes/planets/planets.router")
-const launchesRouter = require("./routes/launches/launches.router")
-
+const api = require('./routes/api');
 const app = express();
 
 //production ready and secure
@@ -19,7 +16,7 @@ app.use(morgan('combined'));
 //middlewares
 app.use(express.json());
 
-app.use('/planets', planetsRouter);
-app.use('/launches', launchesRouter);
+//use version 1 of the api as middleware
+app.use('/v1', api);
 
 module.exports = app;
