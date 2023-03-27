@@ -32,7 +32,7 @@ To run any automated tests, run `npm test`. This will:
 * Run all the server-side tests: `npm test --prefix server` 
 
 ## Demo
-![Screen Shot 2023-03-27 at 2 08 23 PM](https://user-images.githubusercontent.com/74885386/228067115-3b5128dc-5360-4d71-a45a-0b5d01701504.png)
 
 ![nasa](https://user-images.githubusercontent.com/74885386/227730537-70991843-a542-4d54-901d-e4022d6dabc0.png)
+![Screen Shot 2023-03-27 at 2 08 23 PM](https://user-images.githubusercontent.com/74885386/228067115-3b5128dc-5360-4d71-a45a-0b5d01701504.png)
 ![Screen Shot 2023-03-27 at 2 08 31 PM](https://user-images.githubusercontent.com/74885386/228067139-85ac277d-97a7-4918-9c4b-21f6754e2dd9.png)
