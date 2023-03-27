@@ -21,7 +21,6 @@ const launchesSchema = new mongoose.Schema({
         // type: mongoose.ObjectId,
         // ref: 'Planet'
         type: String,
-        required: true
     },
     customers: [ String ],
     upcoming: {
